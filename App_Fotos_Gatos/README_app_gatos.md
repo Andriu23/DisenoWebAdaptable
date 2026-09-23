@@ -162,3 +162,176 @@ Toma tu elemento h2, dos elementos py el elemento de ancla ( a) y anídalos en u
 _________________________________
 Paso 19
 Es hora de agregar una nueva sección con un elemento sección. Agregue un segundo elemento sectiondebajo del elemento sectionexistente.
+
+_________________________________
+Paso 20
+Dentro del segundo elemento section, añade un nuevo elemento h2con el texto Cat Lists.
+
+_________________________________
+Paso 21
+Cuando agregas un elemento de encabezado de rango menor a la página, se implica que estás comenzando una nueva subsección.
+
+Después del último elemento h2del segundo elemento section, agregue un elemento h3con este texto:
+
+Things cats love:
+
+_________________________________
+Paso 22
+Para crear una lista no ordenada de elementos, puedes usar el elemento ul.
+
+Después del elemento h3con el texto Things cats love:, añade una lista desordenada, unordered list - ( ul). Diez en cuenta que nada se mostrará aún.
+
+_________________________________
+Paso 23
+El elemento lise usa para crear una lista de elementos en una lista ordenada o en una lista desordenada.
+
+Aquí hay un ejemplo de una lista de objetos en una lista desordenada:
+
+Código de ejemplo
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+Dentro del elemento ulanida tres elementos li para mostrar tres cosas que aman los gatos:
+
+catnip
+
+laser pointers
+
+lasagna
+
+_________________________________
+Paso 24
+Después de la lista no ordenada, agregue una imagen nueva con un valor de atributo src:
+
+https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg
+
+Y su valor de atributo alta:
+
+A slice of lasagna on a plate.
+
+_________________________________
+Paso 25
+El elemento figurerepresenta el contenido independiente y te permitirá asociar una imagen a una descripción.
+
+Introduzca la imagen que acaba de agregar dentro de un elemento figure.
+
+_________________________________
+Paso 26
+Un elemento ( figcaption), se utiliza para agregar una descripción o leyenda para describir una imagen anidada en un elemento figure.
+
+Aquí tienes un ejemplo de un elemento figcaptioncon la leyenda de A cute cat:
+
+Código de ejemplo
+<figure>
+  <img src="image.jpg" alt="A description of the image">
+  <figcaption>A cute cat</figcaption>
+</figure>
+Después de anidar la imagen en el elemento figure, añade un elemento figcaptioncon el texto:
+
+Cats love lasagna.
+
+_________________________________
+Paso 27
+Para poner énfasis en una palabra o frase específica, puedes utilizar el elemento em.
+
+Enfatiza la palabra loveen el elemento figcaptionenvolviendola en un elemento énfasis em.
+
+_________________________________
+Paso 28
+Después del elemento figure, añade un elemento h3con el texto:
+
+Top 3 things cats hate:
+
+_________________________________
+Paso 29
+El código de una lista ordenada, ordenada lista ( ol), es similar al de una lista no ordenada, unordered list (ul), pero los elementos de una lista ordenada aparecen listados.
+
+Debajo del elemento h3, agrega una lista ordenada con estos tres elementos de lista:
+
+flea treatment thunder other cats
+
+
+_________________________________
+Paso 30
+Después de la lista ordenada (ol), añade otro elemento figure.
+
+_________________________________
+Paso 31
+Dentro del elemento figureque acabas de agregar, anida un elemento imgcon un atributo srccon el valor https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg.
+
+_________________________________
+Paso 32
+Para mejorar la accesibilidad de la imagen que agregaste, agrega un atributo altcon el texto:
+
+Two tabby kittens sleeping together on a couch.
+
+_________________________________
+Paso 33
+Después del último elemento imgañade un elemento figcaptioncon el textoCats hate other cats.
+
+_________________________________
+Paso 34
+El elemento strongse utiliza para indicar que una parte de un texto es importante o urgente.
+
+En el figcaptionque acabas de agregar, indica que hatetiene una fuerte importancia envolviéndolo en un elemento strong.
+
+_________________________________
+Paso 35
+El elemento footerse usa para definir el pie de página de un documento o sección. Un pie de página normalmente contiene información sobre el autor del documento, datos de copyright, enlaces a términos de uso, información de contacto, etcétera.
+
+Después del elemento main, añade un elemento footer.
+
+_________________________________
+Paso 36
+Anida un elemento pcon el texto No Copyright - freeCodeCamp.orgdentro del elemento footer.
+
+_________________________________
+Paso 37
+Convierte el texto existente freeCodeCamp.orga un enlace, colocándolo dentro de un elemento ancla ( a). El valor del atributo hrefdebe ser https://www.freecodecamp.org.
+
+_________________________________
+Paso 38
+Puedes notar que todo lo que has agregado hasta ahora, está dentro del elemento body. Todos los elementos que deben ser renderizados o mostrados en la página, deben ir dentro del elemento body. Sin embargo, otro tipo de información que también es importante va dentro del elemento head.
+
+El elemento headse usa para contener metadatos sobre el documento, como su título, enlaces a hojas de estilo y scripts. Los metadatos son información sobre la página que no se muestra directamente en la página.
+
+Agregue un elemento headsobre el elemento body.
+
+_________________________________
+Paso 39
+El elemento title(título) determina lo que los navegadores muestran en la barra de título o en las pestañas del navegador.
+
+Agrega un elemento titledentro del elemento headusando el texto a continuación:
+
+CatPhotoApp
+
+_________________________________
+Paso 40
+Puedes ver que todo el contenido de la página está anidado dentro de un elemento html. El elemento htmles elemento esencial de una página HTML y envuelve todo el contenido en la página.
+
+También puedes especificar el idioma de tu página agregando el atributo langal elemento html.
+
+Agregue un atributo langcon el valor ena la etiqueta de apertura del elemento htmlpara especificar que el lenguaje de la página es el inglés.
+
+
+_________________________________
+Paso 41
+Todas las páginas deben comenzar con <!DOCTYPE html>. Esta cadena especial se conoce como declaración y garantiza que el navegador intenta cumplir con las especificaciones de la industria.
+
+<!DOCTYPE html>le dice a los navegadores que el documento es un documento HTML5 la cual es la última versión de HTML.
+
+Agregue esta declaración como la primera línea del código.
+
+
+_________________________________
+Paso 42
+Puedes establecer el comportamiento del navegador agregando elementos metaen el head. Aquí tienes un ejemplo:
+
+Código de ejemplo
+<meta attribute="value">
+Dentro del elemento head, anida un elemento metacon un atributo charsetestablecido al valor UTF-8. Esto indica al navegador cómo codificar los caracteres de la página.
+
+Ten en cuenta que el elemento metaes un elemento vacío.
+
+Con ese último cambio, se ha completado el taller de la aplicación de fotos de gatos. ¡Felicidades!
